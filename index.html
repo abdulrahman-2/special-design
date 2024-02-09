@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Design</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <!-- start settings box  -->
+      <div class="settings-box">
+        <div class="toggle-setting">
+          <i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="settings-container">
+          <div class="option-box">
+            <h4>Colors</h4>
+            <ul class="color-list">
+              <li data-color="#ff9800" class="active"></li>
+              <li data-color="#e91e63"></li>
+              <li data-color="#009688"></li>
+              <li data-color="#03a9f4"></li>
+              <li data-color="#4caf50"></li>
+            </ul>
+          </div>
+          <div class="option-box">
+            <h4>Random Background</h4>
+            <div class="random-backgrounds">
+              <button class="yes active" data-background="yes">Yes</button>
+              <button class="no" data-background="no">No</button>
+            </div>
+          </div>
+          <div class="option-box">
+            <h4>Show Bullets</h4>
+            <div class="bullets-option">
+              <button class="yes active" data-background="show">show</button>
+              <button class="no" data-background="hide">hide</button>
+            </div>
+          </div>
+          <buttom class="reset-option">Reset Options</buttom>
+        </div>
+      </div>
+      <!-- end setting box  -->
+      <!-- start about nav bullets  -->
+      <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+          <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet" data-section=".our-skills">
+          <div class="tooltip">Our Skills</div>
+        </div>
+        <div class="bullet" data-section=".our-gallery">
+          <div class="tooltip">Our Gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+          <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".our-features">
+          <div class="tooltip">Feature</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+          <div class="tooltip">Testimonials</div>
+        </div>
+      </div>
+      <!-- end about nav bullets  -->
+      <div class="overlay"></div>
+      <!-- start about landing  -->
+      <div class="landing">
+        <div class="container">
+          <div class="header">
+            <div class="logo">
+              <i class="fa-solid fa-laptop"></i>
+              <span>Special</span>
+            </div>
+            <ul class="nav">
+              <li><a class="active" href="#About">About</a></li>
+              <li><a href="#Skills">Skills</a></li>
+              <li><a href="#Gallery">Gallery</a></li>
+              <li><a href="#Timeline">Timeline</a></li>
+              <li><a href="#Features">Feature</a></li>
+              <li><a href="#Testimonials">Testimonials</a></li>
+            </ul>
+            <div class="drop-nav">
+              <i class="fa-solid fa-bars"></i>
+              <ul class="drop-nav-menu">
+                <li><a href="About">About</a></li>
+                <li><a href="Service">Service</a></li>
+                <li><a href="Products">Products</a></li>
+                <li><a href="Contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="intro-text">
+          <h1>We Are <span>Creative</span> Agency</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+            adipisci odit quis hic alias aperiam, distinctio debitis doloribus
+            tempora illo.
+          </p>
+        </div>
+      </div>
+      <!-- end about landing  -->
+      <!-- start about us  -->
+      <div class="about-us" id="About">
+        <div class="container">
+          <div class="info-box">
+            <span>ABOUT US</span>
+            <h2>
+              Helping businesses <br />
+              deliver <span>exceptional</span> <br />
+              buyer experiences.
+            </h2>
+            <p>
+              Vidyard is the leading video messaging and asynchronous
+              communications platform for go-to-market teams. Millions of sales
+              professionals and more than 250,000 go-to-market teams use
+              Vidyard’s AI-powered video messaging, video hosting, and digital
+              sales rooms to connect with more prospects and generate more
+              revenue.
+            </p>
+            <button class="signup">Sign Up For Free</button>
+          </div>
+          <div class="image-box">
+            <img class="about-img" src="media/image/ff9800.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- end about us  -->
+      <!-- start our skills  -->
+      <div class="our-skills" id="Skills">
+        <div class="container">
+          <h2 class="special-heading">Our Skills</h2>
+          <div class="back-curtain"></div>
+          <div class="progress-skills">
+            <div class="col-one">
+              <div>
+                <h3>Html</h3>
+                <div class="the-progress">
+                  <span class="html" data-progress="85%"></span>
+                </div>
+              </div>
+              <div>
+                <h3>Css</h3>
+                <div class="the-progress">
+                  <span class="Css" data-progress="80%"></span>
+                </div>
+              </div>
+              <div>
+                <h3>Java Script</h3>
+                <div class="the-progress">
+                  <span class="JavaScript" data-progress="70%"></span>
+                </div>
+              </div>
+              <div>
+                <h3>React Js</h3>
+                <div class="the-progress">
+                  <span class="ReactJs" data-progress="60%"></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-two">
+              <div>
+                <h3>Php</h3>
+                <div class="the-progress">
+                  <span class="Php" data-progress="90%"></span>
+                </div>
+              </div>
+              <div>
+                <h3>Vue JS</h3>
+                <div class="the-progress">
+                  <span class="VueJS" data-progress="80%"></span>
+                </div>
+              </div>
+              <div>
+                <h3>Tailwind Css</h3>
+                <div class="the-progress">
+                  <span class="TailwindCss" data-progress="80%"></span>
+                </div>
+              </div>
+              <div>
+                <h3>Sql</h3>
+                <div class="the-progress">
+                  <span class="Sql" data-progress="50%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end our skills  -->
+      <!-- start our gallary -->
+      <div class="our-gallery" id="Gallery">
+        <div class="container">
+          <h2 class="special-heading">Our Gallery</h2>
+          <div class="image-box">
+            <img src="media/image/galary1.jpg" alt="image one" />
+            <img src="media/image/galary2.jpg" alt="image two" />
+            <img src="media/image/galary3.jpg" alt="image three" />
+            <img src="media/image/galary4.jpg" alt="image four" />
+            <img src="media/image/galary5.jpg" alt="image five" />
+            <img src="media/image/galary6.jpg" alt="" />
+            <img src="media/image/galary7.jpg" alt="" />
+            <img src="media/image/galary8.jpg" alt="" />
+            <img src="media/image/galary9.jpg" alt="" />
+            <img src="media/image/galary10.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- end our gallary -->
+      <!-- start timeline -->
+      <div class="timeline" id="Timeline">
+        <div class="container">
+          <!-- <h2 class="special-heading">Time Line</h2> -->
+          <div class="timeline-content">
+            <div class="year">2023</div>
+            <div class="left">
+              <div class="content">
+                <h3>Testing Heading</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Distinctio, consequatur? Velit fugit nisi ea perspiciatis
+                  iusto non corrupti provident nulla omnis sit expedita dolore
+                  aliquid necessitatibus nihil reprehenderit, nam illum!
+                </p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="right">
+              <div class="content">
+                <h3>Testing Heading</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Distinctio, consequatur? Velit fugit nisi ea perspiciatis
+                  iusto non corrupti provident nulla omnis sit expedita dolore
+                  aliquid necessitatibus nihil reprehenderit, nam illum!
+                </p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="year">2022</div>
+            <div class="left">
+              <div class="content">
+                <h3>Testing Heading</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Distinctio, consequatur? Velit fugit nisi ea perspiciatis
+                  iusto non corrupti provident nulla omnis sit expedita dolore
+                  aliquid necessitatibus nihil reprehenderit, nam illum!
+                </p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="right">
+              <div class="content">
+                <h3>Testing Heading</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Distinctio, consequatur? Velit fugit nisi ea perspiciatis
+                  iusto non corrupti provident nulla omnis sit expedita dolore
+                  aliquid necessitatibus nihil reprehenderit, nam illum!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end timeline -->
+      <!-- start our features -->
+      <div class="our-features" id="Features">
+        <div class="container">
+          <h2 class="special-heading">Our Features</h2>
+          <div class="feat-content">
+            <img src="media/image/Icon_01.png" alt="" />
+            <h2>Devolopment</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+              odio, quas magnam accusamus ullam amet.
+            </p>
+          </div>
+          <div class="feat-content">
+            <img src="media/image/Icon_02.png" alt="" />
+            <h2>Devolopment</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+              odio, quas magnam accusamus ullam amet.
+            </p>
+          </div>
+          <div class="feat-content">
+            <img src="media/image/Icon_03.png" alt="" />
+            <h2>Devolopment</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+              odio, quas magnam accusamus ullam amet.
+            </p>
+          </div>
+          <div class="feat-content">
+            <img src="media/image/Icon_04.png" alt="" />
+            <h2>Devolopment</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+              odio, quas magnam accusamus ullam amet.
+            </p>
+          </div>
+          <div class="feat-content">
+            <img src="media/image/Icon_05.png" alt="" />
+            <h2>Devolopment</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+              odio, quas magnam accusamus ullam amet.
+            </p>
+          </div>
+          <div class="feat-content">
+            <img src="media/image/Icon_06.png" alt="" />
+            <h2>Devolopment</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+              odio, quas magnam accusamus ullam amet.
+            </p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <!-- end our features -->
+      <!-- start testimonials -->
+      <h2 class="special-heading">Testimonials</h2>
+      <div class="testimonials" id="Testimonials">
+        <div class="container">
+          <div class="test-content">
+            <div class="test-one">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam nobis in laborum reiciendis eveniet repudiandae
+                tempore quisquam qui.
+              </p>
+              <img class="character" src="media/image/charOne.jpg" alt="" />
+              <h4>Lance Jarvis</h4>
+              <div class="back-image">
+                <img src="media/image/back1.svg" alt="" />
+              </div>
+              <div class="links">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+            <div class="test-two">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam nobis in laborum reiciendis eveniet repudiandae
+                tempore quisquam qui.
+              </p>
+              <img class="character" src="media/image/charTwo.jpg" alt="" />
+              <h4>Ericka Lynda</h4>
+              <div class="back-image">
+                <img src="media/image/back2.svg" alt="" />
+              </div>
+              <div class="links">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+            <div class="test-three">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam nobis in laborum reiciendis eveniet repudiandae
+                tempore quisquam qui.
+              </p>
+              <img class="character" src="media/image/charthree.jpg" alt="" />
+              <h4>Neil Wilford</h4>
+              <div class="back-image">
+                <img src="media/image/back3.svg" alt="" />
+              </div>
+              <div class="links">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end testimonials -->
+      <!-- start contact us -->
+      <div class="contact-us">
+        <div class="overlay"></div>
+        <div class="container">
+          <h2 class="special-heading">Contact Us</h2>
+          <form action="">
+            <div class="left">
+              <input type="text" placeholder="Your Name" />
+              <input type="text" placeholder="Your Phone" />
+              <input type="email" placeholder="Your Email" />
+              <input type="text" placeholder="Subject" />
+            </div>
+            <div class="right">
+              <textarea placeholder="Your Message"></textarea>
+              <button>Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- end contact us -->
+      <!-- start footer  -->
+      <div class="footer">Created With Love By Abdulrahman Attallah</div>
+      <!-- end footer  -->
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
